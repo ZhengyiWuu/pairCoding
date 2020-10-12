@@ -37,10 +37,10 @@ public class Main {
                 String question = Generator.generate(range);
                 String suffixExp = Suffix.toSuffixExp(question);
                 String answer = cal.calculate(suffixExp);
-                if (set.contains(question)) {
+                if (set.contains(answer)) {
                     continue;
                 }
-                set.add(question);
+                set.add(answer);
                 if (!answer.equals("ERROR")) {
                     FileUtil.write("Exercises.txt", t + "." + question);
                     FileUtil.write("Answers.txt", t++ + "." + answer);
