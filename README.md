@@ -1,4 +1,11 @@
-# pairCoding
+# 使用说明
+
+下载 calculator.jar
+在命令行输入：
+如： java -jar calculator.jar -n 10 -r 10
+如： java -jar calculator.jar -e Exercises.txt -a Answers.txt
+可产生相应的文件
+
 # 结对项目
 
 1题目：实现一个自动生成小学四则运算题目的命令行程序（也可以用图像界面，具有相似功能）。
